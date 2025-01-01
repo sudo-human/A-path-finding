@@ -102,6 +102,7 @@ function draw() {
       }
       document.querySelector("#msg").textContent = "Hurreyy!!! Path Found";
       noLoop();
+      location.reload(true);
     }
     current.genNeighbours();
     for (let neighbour of current.n) {
